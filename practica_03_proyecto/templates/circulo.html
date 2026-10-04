@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>circulo</title>
+</head>
+<body>
+    <h2>Calcular area y perimetro del circulo</h2>
+
+
+<form method="POST">
+    <p>Ingresa el radio:</p>
+    <input type="number" step="any" name="radio" required>
+
+    <br><br>
+    <button type="submit">Calcular</button>
+</form>
+
+{% if area is not none %}
+    <p>El area es: {{ area }}</p>
+    <p>El perimetro es: {{ perimetro }}</p>
+{% endif %}
+
+
+</body>
+</html>
