@@ -1,6 +1,6 @@
 # Prácticas de Flask
 
-Repositorio académi
+Repositorio académico
 
 ## Contenido
 - Práctica 1: Intro
